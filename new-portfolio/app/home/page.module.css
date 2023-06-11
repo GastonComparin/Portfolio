@@ -1,0 +1,29 @@
+.container {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  text-align: center;
+}
+.foto{
+  width: 230px;
+  height: 230px;
+}
+.button {
+  width: 240px;
+  height: 240px;
+  border-radius: 15rem;
+  background-color: #e8dab2;
+}
+@media (max-width: 767px) {
+  .container h1{
+    font-size:x-large;
+  }
+  .foto{
+    margin-top: 4rem;
+    width: 230px;
+    height: 230px;
+  }
+}

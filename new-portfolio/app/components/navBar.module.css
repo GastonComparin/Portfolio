@@ -1,0 +1,54 @@
+.container {
+  display: block;
+  position: fixed;
+  top: 20vh;
+  right: 1rem;  
+}
+
+.button {
+  margin-bottom: 1rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8dab2;
+}
+
+.icon {
+  width: 37px;
+  height: 37px;
+}
+.homeIcon {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    top: 1rem;
+    right: 1rem;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
+  .button {
+    margin-bottom: 1rem;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    background-color: #e8dab2;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}

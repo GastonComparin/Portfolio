@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "NotoSans-SemiBold";
+  src: url("../assets/fonts/NotoSans-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  font-family: "NotoSans-SemiBold";
+  background-image: url("../assets/images/FondoPortfolioGris.jpg");
+  background-size: cover;
+  order: 1;
+  display: flex;
+  flex: 0;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: url("../assets/images/FondoPortfolioGris.jpg");
+    background-size:auto;
+  }
+}

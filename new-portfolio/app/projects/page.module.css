@@ -1,0 +1,67 @@
+.container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigContainer {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centerImage {
+  position: relative;
+  width: 770px;
+  height: 390px;
+}
+.title {
+  color: #ee6c4d;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.image {
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image:hover {
+  filter: brightness(0.5);
+}
+
+.sideImage {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 300px;
+  height: 300px;
+  border-radius: 2rem;
+  cursor: pointer;
+  filter: brightness(0.2);
+}
+
+.showButtons .buttonContainer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.showButtons .buttonContainer button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #e8dab2;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
